@@ -28,6 +28,5 @@ RUN export ANDROID_HOME=/android-sdk-linux
 RUN export PATH=$PATH:/android-sdk-linux/platform-tools/
 RUN export ANDROID_SDK_ROOT=/android-sdk-linux
 
-# Install bundle and gem dependencies
+# Install dependencies
 RUN gem install bundler
-RUN bundle install
