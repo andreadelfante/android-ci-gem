@@ -2,13 +2,14 @@
 
 [![Build Status](https://travis-ci.org/andreadelfante/android-ci-gem.svg?branch=master)](https://travis-ci.org/andreadelfante/android-ci-gem)
 
-## Latest build tools
+## Build tools
+### Latest
 ```yml
 image: andreadelfante/android-ci-gem:latest
 ```
 Version: 27.0.3
 
-## Build tools 27.0.3
+### 27.0.3
 ```yml
 image: andreadelfante/android-ci-gem:27.0.3
 ```
