@@ -22,10 +22,5 @@ RUN printf "84831b9409646a918e30573bab4c9c91346d8abd" > /android-sdk-linux/licen
 RUN /android-sdk-linux/tools/bin/sdkmanager --update > update.log
 RUN /android-sdk-linux/tools/bin/sdkmanager "platform-tools" "platforms;android-${ANDROID_COMPILE_SDK}" "build-tools;${ANDROID_BUILD_TOOLS}" "emulator" "extras;google;m2repository" "extras;android;m2repository" > installPlatform.log
 
-# Setting up
-RUN export ANDROID_HOME=/android-sdk-linux
-RUN export PATH=$PATH:/android-sdk-linux/platform-tools/
-RUN export ANDROID_SDK_ROOT=/android-sdk-linux
-
 # Install dependencies
 RUN gem install bundler
