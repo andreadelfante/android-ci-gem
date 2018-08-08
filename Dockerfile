@@ -3,7 +3,6 @@ LABEL maintainer="Andrea Del Fante"
 
 ENV ANDROID_COMPILE_SDK "27"
 ENV ANDROID_BUILD_TOOLS "27.0.3"
-ENV ANDROID_AVD "system-images;android-24;default;armeabi-v7a"
 
 ENV VERSION_SDK_TOOLS "4333796"
 
