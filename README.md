@@ -1,6 +1,7 @@
 # android-ci-gem
 
 [![Build Status](https://travis-ci.org/andreadelfante/android-ci-gem.svg?branch=master)](https://travis-ci.org/andreadelfante/android-ci-gem)
+[![](https://images.microbadger.com/badges/image/andreadelfante/android-ci-gem.svg)](https://microbadger.com/images/andreadelfante/android-ci-gem "Get your own image badge on microbadger.com")
 
 ## Build tools
 ### Latest
