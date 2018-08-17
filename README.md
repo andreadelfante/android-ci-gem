@@ -8,7 +8,14 @@
 ```yml
 image: andreadelfante/android-ci-gem:latest
 ```
-Version: 27.0.3
+Version: 28.0.2
+
+### 28.0.2
+```yml
+image: andreadelfante/android-ci-gem:28.0.2
+```
+- Build Tools: 28.0.2
+- Platform: Android 25, 26, 27 & 28
 
 ### 27.0.3
 ```yml
