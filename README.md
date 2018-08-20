@@ -38,11 +38,13 @@ cache:
   paths:
     - .m2/
     - .gradle/
+    - ./*.lock
 
 before_script:
   - export ANDROID_HOME=/android-sdk-linux
   - export PATH=$PATH:/android-sdk-linux/platform-tools/
   - export ANDROID_SDK_ROOT=/android-sdk-linux
+  - export GRADLE_USER_HOME=`pwd`/.gradle
 
   - chmod +x ./gradlew
 
