@@ -41,7 +41,7 @@ cache:
     - ./*.lock
     - build/
     
-    # For cache bundler
+    # Caching bundler
     - vendor/
 
 before_script:
@@ -51,7 +51,7 @@ before_script:
   - export GRADLE_USER_HOME=`pwd`/.gradle
   - chmod +x ./gradlew
   
-  # For install bundler
+  # Installing bundler
   - bundle config path vendor #define path to cache vendor folder
   - bundle install #install dependencies
 
