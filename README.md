@@ -40,14 +40,20 @@ cache:
     - .gradle/
     - ./*.lock
     - build/
+    
+    # For cache bundler
+    - vendor/
 
 before_script:
   - export ANDROID_HOME=/android-sdk-linux
   - export PATH=$PATH:/android-sdk-linux/platform-tools/
   - export ANDROID_SDK_ROOT=/android-sdk-linux
   - export GRADLE_USER_HOME=`pwd`/.gradle
-
   - chmod +x ./gradlew
+  
+  # For install bundler
+  - bundle config path vendor #define path to cache vendor folder
+  - bundle install #install dependencies
 
 stages:
   - build
