@@ -39,6 +39,7 @@ cache:
     - .m2/
     - .gradle/
     - ./*.lock
+    - build/
 
 before_script:
   - export ANDROID_HOME=/android-sdk-linux
