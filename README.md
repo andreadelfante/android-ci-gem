@@ -33,6 +33,7 @@ image: andreadelfante/android-ci-gem:27.0.3
 
 variables:
   ANDROID_AVD: "system-images;android-24;default;armeabi-v7a"
+  GRADLE_OPTS: "-Dorg.gradle.daemon=false" # to disable gradle daemon
 
 cache:
   paths:
