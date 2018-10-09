@@ -36,7 +36,7 @@ image: andreadelfante/android-ci-gem:27.0.3
 *.gitlab-ci.yml*
 
 ```yml
-image: andreadelfante/android-ci-gem:27.0.3
+image: andreadelfante/android-ci-gem:28.0.3
 
 variables:
   ANDROID_AVD: "system-images;android-24;default;armeabi-v7a"
