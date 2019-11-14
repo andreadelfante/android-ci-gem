@@ -8,35 +8,42 @@
 ```yml
 image: andreadelfante/android-ci-gem:latest
 ```
-Version: 28.0.3
+Version: 29.0.1
+
+### 29.0.1
+````yml
+image: andreadelfante/android-ci-gem:29.0.1
+```
+- Build Tools: 29.0.1
+- Platform: Android 29
 
 ### 28.0.3
 ```yml
 image: andreadelfante/android-ci-gem:28.0.3
 ```
 - Build Tools: 28.0.3
-- Platform: Android 25, 26, 27 & 28
+- Platform: Android 28
 
 ### 28.0.2
 ```yml
 image: andreadelfante/android-ci-gem:28.0.2
 ```
 - Build Tools: 28.0.2
-- Platform: Android 25, 26, 27 & 28
+- Platform: Android 28
 
 ### 27.0.3
 ```yml
 image: andreadelfante/android-ci-gem:27.0.3
 ```
 - Build Tools: 27.0.3
-- Platform: Android 25, 26 & 27
+- Platform: Android 27
 
 ## Sample usages
 ### GitLab
 *.gitlab-ci.yml*
 
 ```yml
-image: andreadelfante/android-ci-gem:28.0.3
+image: andreadelfante/android-ci-gem:latest
 
 variables:
   ANDROID_AVD: "system-images;android-24;default;armeabi-v7a"
