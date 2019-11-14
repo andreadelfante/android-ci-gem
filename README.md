@@ -11,7 +11,7 @@ image: andreadelfante/android-ci-gem:latest
 Version: 29.0.1
 
 ### 29.0.1
-````yml
+```yml
 image: andreadelfante/android-ci-gem:29.0.1
 ```
 - Build Tools: 29.0.1
