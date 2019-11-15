@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM ruby:2.6.5-stretch
 LABEL maintainer="Andrea Del Fante"
 
 ENV ANDROID_COMPILE_SDK "29"
@@ -11,8 +11,6 @@ RUN apt-get --quiet install --yes \
 	wget \
 	tar \
 	unzip \
-	ruby \
-	ruby-dev \
 	openjdk-8-jdk \
 	build-essential
 
