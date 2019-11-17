@@ -3,7 +3,7 @@
 BASE=andreadelfante/android-ci-gem
 RC=$BASE:rc
 LATEST=$BASE:latest
-VERSION=$BASE:29.0.1
+VERSION=$BASE:29.0.2
 
 docker rmi $RC --force
 docker rmi $LATEST --force
