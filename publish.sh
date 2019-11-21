@@ -1,7 +1,7 @@
 #!/bin/sh
 
 BASE=andreadelfante/android-ci-gem
-VERSION_BASE=28.0.3
+VERSION_BASE=27.0.3
 
 RC=$BASE:rc
 VERSION=$BASE:$VERSION_BASE
