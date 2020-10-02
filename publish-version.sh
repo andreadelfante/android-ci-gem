@@ -2,7 +2,7 @@
 
 BASE=andreadelfante/android-ci-gem
 # VERSION_BASE defines a version to build.
-#VERSION_BASE=
+VERSION_BASE=30.0.1
 
 RC=$BASE:rc
 VERSION=$BASE:$VERSION_BASE
